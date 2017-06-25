@@ -23,6 +23,3 @@ for i in range(ites):
     #End 2nd for loop
     print(even+" "+odd)
 #End 3rd For Loop
-
-
-
