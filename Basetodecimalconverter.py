@@ -4,8 +4,9 @@ hexadecimal = "10A1"
 hexadecimal_list = "0123456789ABCDEF" 
 
 decimal = 0;
-
+#Loops over each digit in your input.
 for j in range(len(hexadecimal)):
+    #Comparison of each digit with hexadecimal list to find the value/index.
     for i in range(len(hexadecimal_list)):
         #used len(hexadecimal)-j-1 to read a number from least to max value;
       if hexadecimal[len(hexadecimal)-j-1] == hexadecimal_list[i]: 
